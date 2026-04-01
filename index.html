@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <p>berichtenverkeer</p></p>
-  </body>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Melding ontvangsthal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="melding">
+    <h1 id="titel"></h1>
+    <p id="tekst"></p>
+  </div>
+
+  <script>
+    fetch('bericht.json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('titel').textContent = data.titel;
+        document.getElementById('tekst').textContent = data.tekst;
+      });
+  </script>
+</body>
 </html>
