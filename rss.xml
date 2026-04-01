@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Gemeente Nijkerk – Berichtgeving</title>
+    <link>https://gemeentenijkerk.github.io/berichtgeving-ontvangsthal/</link>
+    <description>Meldingen voor bezoekers van het gemeentehuis</description>
+    <language>nl</language>
+    <lastBuildDate>Wed, 01 Apr 2026 07:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Balie Burgerzaken</title>
+      <description>
+        De balie Burgerzaken sluit vandaag om 15:00 uur.
+      </description>
+      <pubDate>Wed, 01 Apr 2026 06:30:00 GMT</pubDate>
+      <guid>nijkerk-20260401-bz</guid>
+    </item>
+
+  </channel>
+</rss>
